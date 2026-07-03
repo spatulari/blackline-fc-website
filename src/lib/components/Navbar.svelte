@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { fly } from 'svelte/transition';
 
 	let open = $state(false);
@@ -6,7 +6,7 @@
 	function closeMenu() {
 		open = false;
 	}
-</script>
+</script> -->
 
 <nav class="navbar">
 	<a href="/" class="logo">
@@ -26,7 +26,7 @@
 		onclick={() => (open = !open)}
 	>
 		{open ? "✕" : "☰"}
-	</button> -->
+	</button>
 
 	{#if open}
 		<div class="mobile-menu" transition:fly={{ y: -12, duration: 180 }}>
@@ -35,7 +35,7 @@
 			<a href="/download" onclick={closeMenu}>Downloads</a>
 			<a href="/links" onclick={closeMenu}>Links</a>
 		</div>
-	{/if}
+	{/if} -->
 </nav>
 
 <style>
