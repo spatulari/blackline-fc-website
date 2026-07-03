@@ -10,10 +10,10 @@
 
 <nav class="navbar">
 	<a href="/" class="logo">
-		<span class="accent">A</span>zin
+		Blackline <span class="accent">FC</span>
 	</a>
 
-	<div class="links">
+	<!-- <div class="links">
 		<a href="https://docs.azin-lang.org">Documentation</a>
 		<a href="/blog">Blog</a>
 		<a href="/download">Downloads</a>
@@ -26,7 +26,7 @@
 		onclick={() => (open = !open)}
 	>
 		{open ? "✕" : "☰"}
-	</button>
+	</button> -->
 
 	{#if open}
 		<div class="mobile-menu" transition:fly={{ y: -12, duration: 180 }}>

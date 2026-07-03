@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Azin</title>
+	<title>Blackline FC</title>
 	<meta
 		name="description"
-		content="A modern systems programming language. (In Development)"
+		content="The most awesome game you'll ever play."
 	/>
 </svelte:head>
 
@@ -13,15 +13,17 @@
 <div class="page">
 	<main class="hero">
 
-		<h1>
+		<!-- <h1>
 			<span class="accent">A</span>zin
-		</h1>
+		</h1> -->
+
+		<h1>Blackline - <span class="accent">Failure Cascade</span></h1>
 
 		<p class="description">
-			A modern systems programming language currently in development.
+			The most awesome game you'll ever play.
 		</p>
 
-		<div class="buttons">
+		<!-- <div class="buttons">
 			<a href="https://docs.azin-lang.org" class="primary">
 				Documentation
 			</a>
@@ -29,11 +31,11 @@
 			<a href="https://github.com/azin-lang/azin" class="secondary">
 				GitHub
 			</a>
-		</div>
+		</div> -->
 	</main>
 
 	<footer>
-		© {year} Azin Language Project
+		© {year} Damaged Engineer Interactive - Website inspired by <a href="https://azin-lang.org"><span class="accent">Azin</span></a>
 	</footer>
 </div>
 
