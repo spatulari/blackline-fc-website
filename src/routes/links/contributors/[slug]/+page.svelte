@@ -1,16 +1,16 @@
 <svelte:head>
-	<title>{author.name} • Azin</title>
+	<title>{author.name} • Blackline FC</title>
 
 	<meta
 		name="description"
-		content={`${author.name} — ${role} of the Azin project.`}
+		content={`${author.name} — ${role} of Blackline FC.`}
 	/>
 </svelte:head>
 
 <script lang="ts">
 	import { page } from "$app/state";
 	import { AUTHORS } from "$lib/authors";
-	import { getFounder } from "$lib/founders";
+	import { getFounder } from "$lib/contributors";
 	import { renderMarkdown } from "$lib/markdown";
 
 	const slug = page.params.slug as keyof typeof AUTHORS;

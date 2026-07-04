@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
 	import { fly } from 'svelte/transition';
 
 	let open = $state(false);
@@ -6,15 +6,15 @@
 	function closeMenu() {
 		open = false;
 	}
-</script> -->
+</script>
 
 <nav class="navbar">
 	<a href="/" class="logo">
 		Blackline <span class="accent">FC</span>
 	</a>
 
-	<!-- <div class="links">
-		<a href="https://docs.azin-lang.org">Documentation</a>
+	<div class="links">
+		<!-- <a href="https://docs.azin-lang.org">Documentation</a> -->
 		<a href="/blog">Blog</a>
 		<a href="/download">Downloads</a>
 		<a href="/links">Links</a>
@@ -30,12 +30,12 @@
 
 	{#if open}
 		<div class="mobile-menu" transition:fly={{ y: -12, duration: 180 }}>
-			<a href="https://docs.azin-lang.org" onclick={closeMenu}>Documentation</a>
+			<!-- <a href="https://docs.azin-lang.org" onclick={closeMenu}>Documentation</a> -->
 			<a href="/blog" onclick={closeMenu}>Blog</a>
 			<a href="/download" onclick={closeMenu}>Downloads</a>
 			<a href="/links" onclick={closeMenu}>Links</a>
 		</div>
-	{/if} -->
+	{/if}
 </nav>
 
 <style>

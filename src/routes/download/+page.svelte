@@ -14,7 +14,7 @@
 
 	<main class="hero">
 		<h1>
-			<span class="accent">A</span>zin
+			Blackline <span class="accent">FC</span>
 		</h1>
 
 		<p class="description">
@@ -32,7 +32,7 @@
 	</main>
 
 	<footer>
-		© {year} Azin Language Project
+		© {year} Damaged Engineer Interactive
 	</footer>
 </div>
 

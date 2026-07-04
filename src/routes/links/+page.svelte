@@ -11,37 +11,22 @@
 
 	const links = [
 		{
-			title: 'Documentation',
-			description: 'Language guide, API reference, and tutorials.',
-			url: 'https://docs.azin-lang.org'
-		},
-		{
-			title: 'GitHub',
-			description: 'Source code, issues, and development progress.',
-			url: 'https://github.com/azin-lang/azin'
-		},
-		{
 			title: 'Discord',
-			description: 'The official Azin Discord server',
-			url: 'https://discord.gg/HVhCevjAxR'
+			description: 'The official Blackline FC Discord server',
+			url: 'https://discord.gg/gzbMjY4AGj'
 		},
 		{
-			title: 'Founders',
-			description: 'Meet the people who founded and maintain the Azin project.',
-			url: '/links/founders'
+			title: 'Contributors & Founders',
+			description: 'Meet the people who founded Blackline FC and those who contribute.',
+			url: '/links/contributors'
 		},
-		{
-			title: 'Contributors',
-			description: 'Everyone who has contributed to Azin.',
-			url: 'https://github.com/azin-lang/Azin/graphs/contributors?from=3%2F28%2F2026'
-		}
 	];
 </script>
 
 <div class="page">
 	<main class="hero">
 		<h1>
-			<span class="accent">A</span>zin
+			Blackline <span class="accent">FC</span>
 		</h1>
 
 		<p class="description">
@@ -59,7 +44,7 @@
 	</main>
 
 	<footer>
-		© {year} Azin Language Project
+		© {year} Damaged Engineer Interactive
 	</footer>
 </div>
 

@@ -1,46 +1,45 @@
 <svelte:head>
-	<title>Founders • Azin</title>
+	<title>Contributors & Founders • Azin</title>
 	<meta
 		name="description"
-		content="Meet the founders of the Azin programming language."
+		content="Meet the people who founded Blackline FC and those who contribute."
 	/>
 </svelte:head>
 
 <script lang="ts">
 	import { AUTHORS } from "$lib/authors";
 
-	const founders = Object.values(AUTHORS)
-		.filter((author) => author.role === "founder")
+	const contributors = Object.values(AUTHORS)
 		.sort((a, b) => a.name.localeCompare(b.name));	
 </script>
 
 <div class="page">
 	<main class="hero">
 		<h1>
-			<span class="accent">F</span>ounders
+			<span class="accent">C</span>ontributors and <span class="accent">F</span>ounders
 		</h1>
 
 		<p class="description">
-			The people behind Azin.
+			The people behind Blackline FC.
 		</p>
 
 		<div class="grid">
-			{#each founders as founder, i}
+			{#each contributors as contributor, i}
 				<a
 					class="card"
-					href={`/links/founders/${founder.id}`}
+					href={`/links/contributors/${contributor.id}`}
 					style={`animation-delay: ${i * 0.1}s`}
 				>
 					<img
 						class="avatar"
-						src={founder.avatar}
-						alt={founder.name}
+						src={contributor.avatar}
+						alt={contributor.name}
 					/>
 
-					<h2>{founder.name}</h2>
+					<h2>{contributor.name}</h2>
 
 					<span class="role">
-						{founder.role?.replace(/^./, c => c.toUpperCase())}
+						{contributor.role?.replace(/^./, c => c.toUpperCase())}
 
 					</span>
 				</a>
