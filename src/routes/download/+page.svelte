@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Azin</title>
+	<title>Blackline FC</title>
 	<meta
 		name="description"
-		content="A modern systems programming language. (In Development)"
+		content="The best game ever"
 	/>
 </svelte:head>
 

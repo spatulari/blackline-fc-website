@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-    <title>{data.post.title} • Azin</title>
+    <title>{data.post.title} • Blackline FC</title>
     <meta name="description" content={data.post.excerpt} />
 </svelte:head>
 

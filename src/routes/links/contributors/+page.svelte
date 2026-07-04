@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Contributors & Founders • Azin</title>
+	<title>Contributors & Founders • Blackline FC</title>
 	<meta
 		name="description"
 		content="Meet the people who founded Blackline FC and those who contribute."

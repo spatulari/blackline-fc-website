@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog • Azin</title>
+	<title>Blog • Blackline FC</title>
 	<meta
 		name="description"
 		content="Development logs, game updates, and articles from the Blackline FC contributors"
