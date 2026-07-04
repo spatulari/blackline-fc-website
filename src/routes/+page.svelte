@@ -2,7 +2,7 @@
 	<title>Blackline FC</title>
 	<meta
 		name="description"
-		content="Build, maintain and protect a realistic power grid in Blackline - Failure Cascade."
+		content="Build, maintain and protect a realistic power grid in Blackline FC."
 	/>
 </svelte:head>
 
@@ -16,12 +16,12 @@
 
 		<h1>
 			Build. Maintain.
-			<span class="accent">Survive.</span>
+			<span class="accent">Expand.</span>
 		</h1>
 
 		<p class="description">
 			In <strong>Blackline - Failure Cascade</strong>, you are the first operator
-			of your sector. Design, expand and maintain a realistic electrical grid,
+			of your sector. Design, construct and maintain a realistic electrical grid,
 			balance production and demand, and make sure the lights never go out.
 		</p>
 
@@ -40,7 +40,7 @@
 
 			<p>
 				Every cable matters. Connect generators, transformers, substations,
-				breakers and consumers exactly how you want.
+				breakers and consumers exactly how and where you want.
 			</p>
 		</div>
 
