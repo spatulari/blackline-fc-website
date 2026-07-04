@@ -10,7 +10,7 @@
 <script lang="ts">
 	import { page } from "$app/state";
 	import { AUTHORS } from "$lib/authors";
-	import { getFounder } from "$lib/founders";
+	import { getFounder } from "$lib/credits";
 	import { renderMarkdown } from "$lib/markdown";
 
 	const slug = page.params.slug as keyof typeof AUTHORS;

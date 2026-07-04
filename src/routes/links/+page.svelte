@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Links • Azin</title>
+	<title>Links</title>
 	<meta
 		name="description"
-		content="Official Azin project links."
+		content="Official Blackline FC links."
 	/>
 </svelte:head>
 
@@ -11,29 +11,14 @@
 
 	const links = [
 		{
-			title: 'Documentation',
-			description: 'Language guide, API reference, and tutorials.',
-			url: 'https://docs.azin-lang.org'
-		},
-		{
-			title: 'GitHub',
-			description: 'Source code, issues, and development progress.',
-			url: 'https://github.com/azin-lang/azin'
-		},
-		{
 			title: 'Discord',
-			description: 'The official Azin Discord server',
-			url: 'https://discord.gg/HVhCevjAxR'
+			description: 'The official Blackline FC Discord server',
+			url: 'https://discord.gg/8T4Jr8Fc9b'
 		},
 		{
-			title: 'Founders',
-			description: 'Meet the people who founded and maintain the Azin project.',
-			url: '/links/founders'
-		},
-		{
-			title: 'Contributors',
-			description: 'Everyone who has contributed to Azin.',
-			url: 'https://github.com/azin-lang/Azin/graphs/contributors?from=3%2F28%2F2026'
+			title: 'Credits',
+			description: 'Meet the people who maintain Blackline FC.',
+			url: '/links/credits'
 		}
 	];
 </script>
@@ -41,11 +26,11 @@
 <div class="page">
 	<main class="hero">
 		<h1>
-			<span class="accent">A</span>zin
+			Blackline <span class="accent">FC</span>
 		</h1>
 
 		<p class="description">
-			Everything related to the Azin project in one place.
+			Everything related to Blackline FC in one place.
 		</p>
 
 		<div class="grid">
@@ -59,7 +44,12 @@
 	</main>
 
 	<footer>
-		© {year} Azin Language Project
+		© {year} Damaged Engineer Interactive
+		-
+		Website inspired by
+		<a href="https://azin-lang.org">
+			<span class="accent">Azin</span>
+		</a>
 	</footer>
 </div>
 

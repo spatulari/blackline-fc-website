@@ -32,7 +32,12 @@
 	</main>
 
 	<footer>
-		© {year} Azin Language Project
+		© {year} Damaged Engineer Interactive
+		-
+		Website inspired by
+		<a href="https://azin-lang.org">
+			<span class="accent">Azin</span>
+		</a>
 	</footer>
 </div>
 
