@@ -45,14 +45,11 @@
 
 	<footer>
 		© {year} Damaged Engineer Interactive
-<<<<<<< HEAD
-=======
 		-
 		Website inspired by
 		<a href="https://azin-lang.org">
 			<span class="accent">Azin</span>
 		</a>
->>>>>>> b383f1d09f64d2b2e3e0c148d4a60de822cc0e91
 	</footer>
 </div>
 

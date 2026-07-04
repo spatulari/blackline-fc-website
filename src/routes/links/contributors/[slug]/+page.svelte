@@ -10,11 +10,7 @@
 <script lang="ts">
 	import { page } from "$app/state";
 	import { AUTHORS } from "$lib/authors";
-<<<<<<<< HEAD:src/routes/links/contributors/[slug]/+page.svelte
 	import { getFounder } from "$lib/contributors";
-========
-	import { getFounder } from "$lib/credits";
->>>>>>>> b383f1d09f64d2b2e3e0c148d4a60de822cc0e91:src/routes/links/credits/[slug]/+page.svelte
 	import { renderMarkdown } from "$lib/markdown";
 
 	const slug = page.params.slug as keyof typeof AUTHORS;
