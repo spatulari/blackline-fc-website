@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Links • Azin</title>
+	<title>Links</title>
 	<meta
 		name="description"
-		content="Official Azin project links."
+		content="Official Blackline FC links."
 	/>
 </svelte:head>
 
@@ -30,7 +30,7 @@
 		</h1>
 
 		<p class="description">
-			Everything related to the Azin project in one place.
+			Everything related to Blackline FC in one place.
 		</p>
 
 		<div class="grid">
@@ -45,6 +45,14 @@
 
 	<footer>
 		© {year} Damaged Engineer Interactive
+<<<<<<< HEAD
+=======
+		-
+		Website inspired by
+		<a href="https://azin-lang.org">
+			<span class="accent">Azin</span>
+		</a>
+>>>>>>> b383f1d09f64d2b2e3e0c148d4a60de822cc0e91
 	</footer>
 </div>
 
