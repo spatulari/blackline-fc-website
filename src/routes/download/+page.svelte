@@ -14,7 +14,7 @@
 
 	<main class="hero">
 		<h1>
-			<span class="accent">A</span>zin
+			Blackline <span class="accent">FC</span>
 		</h1>
 
 		<p class="description">

@@ -13,13 +13,13 @@
 		{
 			title: 'Discord',
 			description: 'The official Blackline FC Discord server',
-			url: 'https://discord.gg/8T4Jr8Fc9b'
+			url: 'https://discord.gg/gzbMjY4AGj'
 		},
 		{
-			title: 'Credits',
-			description: 'Meet the people who maintain Blackline FC.',
-			url: '/links/credits'
-		}
+			title: 'Contributors & Founders',
+			description: 'Meet the people who founded Blackline FC and those who contribute.',
+			url: '/links/contributors'
+		},
 	];
 </script>
 

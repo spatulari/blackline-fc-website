@@ -13,7 +13,7 @@ export type FounderPage = {
 	github?: string;
 };
 
-const founderModules = import.meta.glob("/src/md/founders/*.md", {
+const founderModules = import.meta.glob("/src/md/contributors/*.md", {
 	query: "?raw",
 	import: "default",
 	eager: true

@@ -94,10 +94,6 @@
 			Development has been ongoing since September 27th, and we'll continue
 			sharing screenshots, mechanics and development updates over time.
 		</p>
-
-		<!-- <a href="/blog" class="primary">
-			Development Blog
-		</a> -->
 	</section>
 
 	<footer>

@@ -10,7 +10,7 @@
 	<title>Blog • Azin</title>
 	<meta
 		name="description"
-		content="Development logs, compiler updates, and articles from the Azin project."
+		content="Development logs, game updates, and articles from the Blackline FC contributors"
 	/>
 </svelte:head>
 
@@ -21,8 +21,8 @@
 		</h1>
 
 		<p class="description">
-			Development logs, compiler updates, design decisions, and everything happening around
-			the Azin language.
+			Development logs, game updates, design decisions, and everything happening around
+			Blackline FC.
 		</p>
 
 		<div class="grid">
