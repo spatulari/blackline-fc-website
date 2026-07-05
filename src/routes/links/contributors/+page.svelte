@@ -9,8 +9,12 @@
 <script lang="ts">
 	import { AUTHORS } from "$lib/authors";
 
-	const contributors = Object.values(AUTHORS)
-		.sort((a, b) => a.name.localeCompare(b.name));	
+	const contributors = Object.values(AUTHORS).sort((a, b) =>
+		a.name.localeCompare(b.name)
+	);
+
+	const founders = contributors.filter((c) => c.role === "founder");
+	const helpers = contributors.filter((c) => c.role === "helper");
 </script>
 
 <div class="page">
@@ -23,28 +27,61 @@
 			The people behind Blackline FC.
 		</p>
 
-		<div class="grid">
-			{#each contributors as contributor, i}
-				<a
-					class="card"
-					href={`/links/contributors/${contributor.id}`}
-					style={`animation-delay: ${i * 0.1}s`}
-				>
-					<img
-						class="avatar"
-						src={contributor.avatar}
-						alt={contributor.name}
-					/>
+		{#if founders.length}
+			<section class="section">
+				<h2 class="section-title">Founders</h2>
 
-					<h2>{contributor.name}</h2>
+				<div class="grid">
+					{#each founders as contributor, i}
+						<a
+							class="card"
+							href={`/links/contributors/${contributor.id}`}
+							style={`animation-delay: ${i * 0.1}s`}
+						>
+							<img
+								class="avatar"
+								src={contributor.avatar}
+								alt={contributor.name}
+							/>
 
-					<span class="role">
-						{contributor.role?.replace(/^./, c => c.toUpperCase())}
+							<h3 class="name">{contributor.name}</h3>
 
-					</span>
-				</a>
-			{/each}
-		</div>
+							<span class="role founder">
+								Founder
+							</span>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
+
+		{#if helpers.length}
+			<section class="section">
+				<h2 class="section-title">Helpers</h2>
+
+				<div class="grid">
+					{#each helpers as contributor, i}
+						<a
+							class="card"
+							href={`/links/contributors/${contributor.id}`}
+							style={`animation-delay: ${(i + founders.length) * 0.1}s`}
+						>
+							<img
+								class="avatar"
+								src={contributor.avatar}
+								alt={contributor.name}
+							/>
+
+							<h3 class="name">{contributor.name}</h3>
+
+							<span class="role helper">
+								Helper
+							</span>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/if}
 	</main>
 </div>
 
@@ -130,15 +167,47 @@
 		font-size: 1.35rem;
 	}
 
+	.section {
+		margin-top: 4rem;
+	}
+
+	.section:first-of-type {
+		margin-top: 3rem;
+	}
+
+	.name {
+		margin: 0;
+		font-size: 1.35rem;
+		font-weight: 700;
+	}
+
+	.section-title {
+		margin-bottom: 1.5rem;
+		text-align: left;
+		font-size: 2rem;
+		font-weight: 800;
+		color: white;
+	}
+
 	.role {
 		display: inline-block;
 		margin-top: .75rem;
 		padding: .35rem .75rem;
 		border-radius: 999px;
-		background: #1f2937;
-		color: #38bdf8;
 		font-size: .85rem;
-		font-weight: 500;
+		font-weight: 600;
+	}
+
+	.role.founder {
+		background: rgba(56, 189, 248, 0.15);
+		color: #38bdf8;
+		border: 1px solid rgba(56, 189, 248, 0.3);
+	}
+	
+	.role.helper {
+		background: rgba(249, 115, 22, 0.15);
+		color: #f97316;
+		border: 1px solid rgba(249, 115, 22, 0.3);
 	}
 
 	@keyframes fadeIn {

@@ -20,6 +20,13 @@ export const AUTHORS = {
 		avatar: "https://avatars.githubusercontent.com/u/206748761?v=4",
 		role: "helper"
 	},
+	fikus: {
+		id: "fikus",
+		name: "Fikus",
+		github: "https://github.com/Ficuss02",
+		avatar: "https://cdn.discordapp.com/avatars/1300080893297426462/3f2acf8fda2ad83f92c7462b8131c6c8.png?size=1024",
+		role: "helper"
+	}
 } satisfies Record<string, Author>;
 
 export type Author = {
